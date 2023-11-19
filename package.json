@@ -1,0 +1,26 @@
+{
+  "name": "react-food",
+  "version": "1.0.0",
+  "description": "This food-app",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikanta20-01/react-Food.git"
+  },
+  "author": "manikanta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manikanta20-01/react-Food/issues"
+  },
+  "homepage": "https://github.com/manikanta20-01/react-Food#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
