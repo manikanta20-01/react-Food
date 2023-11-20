@@ -1,45 +1,76 @@
+/* Smart UI Styles */
+
+/* Header Styles */
 .header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  align-items: center;
+  padding: 12px 20px;
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 8px;
 }
+
+/* Logo Styles */
 .logo {
-  width: 200px;
+  width: 150px;
 }
+
+/* Navigation Styles */
 .nav-items {
-  padding: 0px 20px;
+  padding: 0 10px;
 }
+
 .nav-items > ul {
-  font-size: 24px;
+  font-size: 18px;
   display: flex;
   list-style-type: none;
 }
+
 .nav-items > ul > li {
-  padding: 10px;
-  margin: 10px;
+  padding: 8px;
+  margin: 8px;
 }
+
+/* Responsive Container Styles */
 .res-container {
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Responsive Card Styles */
 .res-card {
   margin: 5px;
-  padding: 5px;
-  width: 200px;
-}
-.res-card:hover {
-  cursor: pointer;
-  border: 1px solid black;
-}
-.search {
-  padding: 10px;
+  padding: 8px;
+  width: 150px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px;
+  transition: border 0.3s ease; /* Smoother border transition */
 }
 
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #4CAF50; /* Green border on hover */
+}
+
+/* Search Styles */
+.search {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Responsive Logo Styles */
 .res-logo {
   width: 100%;
 }
 
+/* Filter Button Styles */
 .filter-btn {
-  margin: 10px;
+  margin: 8px;
   cursor: pointer;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
 }
