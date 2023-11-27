@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import resList from "../utils/mockData";
 
 const Body = () => {
-  const [listOfRestaurants, setListOfRestraunt] = useState(resList);
+  const [listOfRestaurants, setListOfRestraunt] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -16,7 +16,8 @@ const Body = () => {
 
     const json = await data.json();
     console.log(json);
-    // json.use(cors());
+
+    setListOfRestraunt(json?.data?.cards[2]?.data?.data?.cards);
   };
 
   return (
